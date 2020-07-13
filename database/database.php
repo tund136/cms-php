@@ -24,7 +24,7 @@ class Database {
         return $this;
     }
 
-    public function __construct() {
+    function __construct() {
         $this->openDbConnection();
     }
 
